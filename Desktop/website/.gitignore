@@ -1,0 +1,18 @@
+# Ignore system files and folders
+AppData/
+Cookies/
+Local Settings/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+
+# Ignore IDE related files
+.arduinoIDE/
+.vscode/
+.idea/
+*.log
+
+# Ignore OS-related files
+Thumbs.db
+.DS_Store

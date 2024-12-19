@@ -1,1 +1,32 @@
-ECHO is on.
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character encoding and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title displayed on the browser tab -->
+    <title>Simple Website</title>
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <!-- Buttons for navigation; the onclick attribute calls a JavaScript function to navigate to specific pages -->
+        <button onclick="goToPage('page1.html')">Option 1</button>
+        <button onclick="goToPage('page2.html')">Option 2</button>
+        <button onclick="goToPage('page3.html')">Option 3</button>
+    </nav>
+
+    <!-- Main Content Section -->
+    <!-- Heading for the homepage -->
+    <h1>Welcome to the Homepage</h1>
+    <!-- Informational paragraph for users -->
+    <p>Select an option from the navigation bar to visit a different page.</p>
+
+    <!-- Link to external JavaScript file for functionality -->
+    <script src="script.js"></script>
+</body>
+</html>
+

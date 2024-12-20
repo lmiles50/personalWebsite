@@ -1,3 +1,9 @@
+# Ignore everything in parent directories
+../*
+
+# Explicitly allow your project directory
+!./
+
 # Ignore system files and folders
 AppData/
 Cookies/

@@ -1,25 +1,13 @@
-# Ignore everything in parent directories
-../*
+# Ignore everything
+*
 
-# Explicitly allow your project directory
-!./
+# Do not ignore directories themselves
+!*/
 
-# Ignore system files and folders
-AppData/
-Cookies/
-Local Settings/
-Recent/
-SendTo/
-Start Menu/
-Templates/
+# Do not ignore files in the current directory
+!.*
 
-# Ignore IDE related files
-.arduinoIDE/
-.vscode/
-.idea/
-*.log
-
-# Ignore OS-related files
-Thumbs.db
-.DS_Store
-
+# Specifically allow the files in this directory
+!index.html
+!styles.css
+!script.js
